@@ -107,7 +107,7 @@ public class Matrix<T> {
 
         for (int i = 0; i < getHeight(); i++) {
             for (int j = 0; j < getWidth(); j++) {
-                output += get(i, j);
+                output += get(i, j).toString();
 
                 if (j < (getWidth() - 1)) {
                     output += " ";
